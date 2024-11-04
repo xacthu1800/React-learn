@@ -1,23 +1,11 @@
-import logo from './logo.svg';
-import './App.css';
+//import './App.css';
+import AlbulmFeature from './features/Album';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          UPDATE TITLE
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      {/* <TodoFeature /> */}
+      <AlbulmFeature />
     </div>
   );
 }
