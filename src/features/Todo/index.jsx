@@ -31,7 +31,9 @@ function TodoFeature(props) {
 
     const [todoList, setTodoList]= useState(initTodoList)
     const [filterStatus, setFilterStatus] = useState('all')
+
     const renderTodoList = todoList.filter(todo=>filterStatus === 'all'|| filterStatus === todo.status)
+    
     function handleTodoClick(todo, idx){
         console.log(todo, idx)
 
